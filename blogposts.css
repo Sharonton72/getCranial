@@ -1,29 +1,50 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
-      * {
-        box-sizing: border-box;
-        }
+* {
+  box-sizing: border-box;
+  }
       
-      html { 
-        font-size: 11px;
+html { 
+  font-size: 11px;
       }
       
-      body {
-        font-family: 'Lato', sans-serif;
-        font-size: 1.5rem;
-        background-color: #eeeeee;
-        text-align: center;
-        margin: 0;
-      }
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  background-color: #eeeeee;
+  text-align: center;
+  margin: 0;
+     }
       
-      h1 {
-        font-size: 3.75rem;
-        line-height: 1.8;
-        text-align: center;
-      }
+h1 {
+  font-size: 3.75rem;
+  line-height: 1.8;
+  text-align: center;
+   }
       
-      h2 {
-        font-size: 2.50rem;
-      }
+h2 {
+  font-size: 2.50rem;
+  }
 
-     
+h3 {
+  font-size: 2rem;
+}
+
+.left-column {
+  float: left;
+  width: 25%;
+}
+
+.right-column {
+  float: right:
+  width: 75%;
+}
+
+/* Image */
+.img {
+  background-color: #aaa;
+  width: 100%;
+  padding: 3rem;
+}
+
+
