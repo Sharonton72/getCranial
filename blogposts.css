@@ -40,6 +40,11 @@ h3 {
   width: 75%;
 }
 
+/* nav ul */
+.nav {
+  
+}
+
 /* Image */
 .img {
   background-color: #aaa;
@@ -47,4 +52,34 @@ h3 {
   padding: 3rem;
 }
 
+.article {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+}
 
+.post {
+  
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}

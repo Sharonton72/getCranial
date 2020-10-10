@@ -27,14 +27,14 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: "Roboto Mono", sans-serif;
-  color: #43d6b9ff;
+  color: #f44242;
   text-align: center;
   line-height: 1.3em;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: #FBF165;
+  color: #75FFF3;
   text-decoration: none;
 }
 
@@ -52,9 +52,9 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #B0E0E6;
+  background-color: #F44242;
   border-style: solid;
-  border-color: #e0ffff;
+  border-color: #F44242;
 }
 
 /* TODO (optional): Change the font size*/
@@ -70,7 +70,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #F08080;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -82,7 +82,7 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
+  background-color: #FF436A;
   color: #43d6b9ff;
 }
 
@@ -99,7 +99,7 @@ li.nav a:hover {
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: #f08080;
+  background-color: #E5496E;
   padding: 5px;
 
   /* Positioning properties */
