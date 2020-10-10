@@ -11,7 +11,7 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
-  background-color: #eeeeee;
+  background-color: ##c70c0c;
   text-align: center;
   margin: 0;
      }
@@ -41,8 +41,34 @@ h3 {
 }
 
 /* nav ul */
-.nav {
+.card {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
   
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 /* Image */
@@ -52,6 +78,7 @@ h3 {
   padding: 3rem;
 }
 
+/* article */
 .article {
   background-color: white;
   padding: 2rem;
@@ -59,10 +86,11 @@ h3 {
 }
 
 .post {
-  
+  text-align: left;
 }
+
 /* Clear floats after the columns */
-.row:after {
+.row:before {
   content: "";
   display: table;
   clear: both;
