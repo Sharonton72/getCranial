@@ -4,8 +4,43 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Hello!</title>
+ <style>
+      body {margin:0;} 
+      ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 2;
+      overflow: hidden;
+      background-color: #FBFCFC;
+      position: fixed;
+      top: 0;
+      width: 100%
+         }
+        li {
+          display: inline;
+        }
+      }
+         li a {
+           display: block;
+           color: black;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+       }
+      li a:hover {
+        background-color: #C2CFCF;
+      }
+     /* Know which page you are on by highlighting that one */
+      .active: {
+        background-color: #81D8D8;
+      }
+    .header {
+      background-color: #BA7DD3;
+      padding: 50px;
+      text-align: center
+    }
+    </style>
+    <title>Get Cranial Homepage</title>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
@@ -14,50 +49,51 @@
     <script src="/script.js" defer></script>
   </head>  
   <body>
-        <section>
-        <article class="post">
-            <h3>Blog Post One</h3>
-            <small>Posted by Peace on October 10</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, rerum? Ea iusto doloribus dignissimos aliquid optio expedita suscipit aut molestias perspiciatis magnam voluptates voluptatibus assumenda, delectus iste, culpa facilis velit.</p>
-            <a href="post.html">Read More</a>
-        </article>
+ <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <article class="post">
-            <h3>Blog Post Two</h3>
-            <small>Posted by Peace on October 10</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, rerum? Ea iusto doloribus dignissimos aliquid optio expedita suscipit aut molestias perspiciatis magnam voluptates voluptatibus assumenda, delectus iste, culpa facilis velit.</p>
-            <a href="post.html">Read More</a>
-        </article>
-
-        <article class="post">
-            <h3>Blog Post Three</h3>
-            <small>Posted by Peace on October 10</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, rerum? Ea iusto doloribus dignissimos aliquid optio expedita suscipit aut molestias perspiciatis magnam voluptates voluptatibus assumenda, delectus iste, culpa facilis velit.</p>
-            <a href="post.html">Read More</a>
-        </article>
-
-        <article class="post">
-            <h3>Blog Post Four</h3>
-            <small>Posted by Peace on October 10</small>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, rerum? Ea iusto doloribus dignissimos aliquid optio expedita suscipit aut molestias perspiciatis magnam voluptates voluptatibus assumenda, delectus iste, culpa facilis velit.</p>
-            <a href="post.html">Read More</a>
-        </article>
-    </section>
-
-    <aside>
-        <h3>Categories</h3>
-        <nav>
-            <ul>
-                <li><a href="#">Category 1</a></li>
-                <li><a href="#">Category 2</a></li>
-                <li><a href="#">Category 3</a></li>
-            </ul>
-        </nav>
-    </aside>
-
-    <footer>
-        <p>Copyright &copy; 2020, My Website</p>
-    </footer id="main-footer">
+   <div class="header">
+     <h1>
+       Welcome to...
+     </h1>
+    </div>
+    <!--Navigation!-->
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li>
+          <a
+            href="https://cdn.glitch.com/defa7bf3-3a16-446f-abd0-dff887c2579d%2F93645DF0-3C83-4E19-A3A0-FEB6B5127B1D.png?v=1592340249099">About Isabella</a
+          >
+        </li>
+        <li><a href="Personal-Favs.html">Check This Out!</a></li>
+      </ul>
+    </nav>
+    <div class="top">
+  <img src="https://cdn.glitch.com/defa7bf3-3a16-446f-abd0-dff887c2579d%2Fwebsite%20(1).jpg?v=1594157750913" 
+           alt="Profile Image" 
+           class="center"
+           />
+    </div>
+    <div>
+      <p>
+        Hi! My Name is Isabella and I am a Junior at Moorpark High (Class of
+        '22). I am passionate about mental health advocacy, saving the bees, and
+        hopefully pursuing a careeer in animation. I enjoy art, computer
+        science, wasting my life away on video games, and looking at pictures of
+        <a
+          id="link"
+          href="https://www.google.com/search?q=fuzzy+cows&rlz=1C1CHBF_enUS860US860&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjdnPP5mrzqAhUOEawKHQ2RAmQQ_AUoAXoECA4QAw&biw=860&bih=664&dpr=1.25"
+          >fuzzy cows</a
+        >!✿
+      </p>
+    </div>
     <script src="https://button.glitch.me/button.js" defer></script>
   </body>
 </html>
