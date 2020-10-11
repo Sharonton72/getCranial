@@ -8,7 +8,7 @@ html {
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
-  background-color: #b984fb; /* Change the background color */
+  background-color: #D22A2A; /* Change the background color */
   box-sizing: border-box;
   letter-spacing: 1px
 }
@@ -27,7 +27,7 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: "Roboto Mono", sans-serif;
-  color: #f44242;
+  color: white;
   text-align: center;
   line-height: 1.3em;
 }
@@ -137,7 +137,7 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: #43d6b9ff;
+  color: white;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
