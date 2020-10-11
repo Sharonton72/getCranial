@@ -80,11 +80,17 @@ li.nav a:hover {
 
 /* Image */
 .image {
-  background-color: #aaa;
+  display: block;
+  background-color: black;
   width: 100%;
-  padding: 3rem;
+  height: 10%;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
+.center {
+  wid
+}
 /* article */
 .article {
   color: white;
