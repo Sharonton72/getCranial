@@ -45,7 +45,7 @@ nav a:focus{
 /* logo */
 
 .logo {
-  width: 60vw;
+  width: 100vw;
 }
 
 @media (max-width: 650px) {
