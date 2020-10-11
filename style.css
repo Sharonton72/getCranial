@@ -130,7 +130,7 @@ li.nav a:hover {
   background-color: #43d6b9ff; /* Add your own background color */
   padding: 4%;
   margin: 3%;
-  color: #0D38D3; /* Add the color of your font */
+  color: white; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
@@ -149,7 +149,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: #D54242;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
