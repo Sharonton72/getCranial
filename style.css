@@ -46,6 +46,36 @@ p a {
 
 /* TODO (optional): Change the background color and/or border style */
 
+/* logo */
+.logo {
+  width: 100vw;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+@media (max-width: 650px) {
+  .logo > img {
+    margin: 0 auto;
+  }
+}
+
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
