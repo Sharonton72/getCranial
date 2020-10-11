@@ -10,7 +10,7 @@ html {
       
 body {
   float: left;
-  font-family: 'Lato', sans-serif;
+  font-family: 'monospace', sans-serif;
   font-size: 1.5rem;
   background-image: url(https://media.discordapp.net/attachments/764532639138316291/764671286105473024/cranialprojectbackground.jpg?width=1404&height=936);
   color: #ffff;
@@ -25,6 +25,7 @@ h1 {
 
 /* header */
 header {
+  font-family: 'monospace', sans-serif;
   display: relative;
   text-align: center;
 }
@@ -82,15 +83,10 @@ li.nav a:hover {
 .image {
   display: block;
   background-color: black;
-  width: 100%;
+  width: 60%;
   height: 10%;
-  margin-left: 50%;
-  margin-right: 50%;
 }
 
-.center {
-  wid
-}
 /* article */
 .article {
   color: white;
