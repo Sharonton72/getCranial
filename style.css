@@ -174,7 +174,7 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. https://cdn.glitch.com/09579c53-85c2-4bca-8823-67a819e7c55d%2Fpatrick-tomasso-UeuSuM1M43U-unsplash.jpg?v=1593038248475*/
 .main-message {
-  background-image: url("https://cdn.glitch.com/faa7e333-b899-497d-9290-d8584d33dc21%2FProject_Logo_4.png?v=1602430989928");
+  background-image: url("https://cdn.glitch.com/faa7e333-b899-497d-9290-d8584d33dc21%2Fscott-webb-mslrSX69KvQ-unsplash.jpg?v=1602438701364");
   background-attachment: fixed;
 }
 
@@ -185,7 +185,7 @@ li.nav a:hover {
 }
 
 .image-two {
-  background-image: url("https://cdn.glitch.com/09579c53-85c2-4bca-8823-67a819e7c55d%2Fgeorge-kedenburg-iii-JWJzEx_KVUM-unsplash.jpg?v=1593107202172");
+  background-image: url("https://cdn.glitch.com/faa7e333-b899-497d-9290-d8584d33dc21%2Felena-mozhvilo-Y7o26YyT0qE-unsplash.jpg?v=1602438866167");
   background-attachment: fixed;
 }
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
