@@ -1,15 +1,53 @@
+* {
+  box-sizing: border-box;
+  }
+      
+html { 
+  font-size: 11px;
+      }
+      
+body {
+  float: left;
+  font-family: "monospace", sans-serif;
+  font-size: 1.5rem;
+  background-image: url(https://media.discordapp.net/attachments/764532639138316291/764671286105473024/cranialprojectbackground.jpg?width=1404&height=936);
+  color: #ffff;
+  text-align: center;
+  margin: 0;
+     }
+      
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.8;
+   }
+
+/* header */
+header {
+  display: relative;
+  text-align: center;
+}
+
+
+.background-image {
+  background-color: #000;
+  width: 50%;
+  height: 40%;
+  top: 0;
+  left: 0;
+}
 
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
   font-family: "monospace", sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 2px;
+  padding: 5px;
   overflow: hidden;
   background-color: #F44242;
   border-style: solid;
   border-color: #F44242;
 }
+
 
 /* TODO (optional): Change the font size*/
 
@@ -47,3 +85,4 @@ li.nav a:hover {
   background-color: #FF436A;
   color: #43d6b9ff;
 }
+

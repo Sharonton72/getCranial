@@ -26,7 +26,6 @@ h1 {
 header {
   display: relative;
   text-align: center;
-  height: 75px;
 }
 
 
@@ -42,8 +41,8 @@ header {
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 2px;
+  padding: 6px;
   overflow: hidden;
   background-color: #F44242;
   border-style: solid;
