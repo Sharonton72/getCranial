@@ -7,10 +7,10 @@ html {
       }
       
 body {
-  float: left;
+  float: center;
   font-family: "monospace", sans-serif;
   font-size: 1.5rem;
-  background-image: url(https://media.discordapp.net/attachments/764532639138316291/764671286105473024/cranialprojectbackground.jpg?width=1404&height=936);
+  background-image: url(https://cdn.glitch.com/faa7e333-b899-497d-9290-d8584d33dc21%2Fsunyu-ezsFc1a9f6w-unsplash.jpg?v=1602450510949);
   color: #ffff;
   text-align: center;
   margin: 0;
@@ -22,9 +22,9 @@ h1 {
    }
 
 a {
-        text-decoration: none;
-        color: white;
-      }
+  text-decoration: none;
+  color: white;
+  }
 
 /* header */
 header {
@@ -32,14 +32,6 @@ header {
   text-align: center;
 }
 
-
-.background-image {
-  background-color: #000;
-  width: 50%;
-  height: 40%;
-  top: 0;
-  left: 0;
-}
 
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
