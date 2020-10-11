@@ -172,15 +172,15 @@ li.nav a:hover {
   /* TODO: Add the property to create the parallax scrolling effect here */
 }
 
-/* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
+/* TODO: Replace the current image URL with your own. This is the top image on your homepage. https://cdn.glitch.com/09579c53-85c2-4bca-8823-67a819e7c55d%2Fpatrick-tomasso-UeuSuM1M43U-unsplash.jpg?v=1593038248475*/
 .main-message {
-  background-image: url("https://cdn.glitch.com/09579c53-85c2-4bca-8823-67a819e7c55d%2Fpatrick-tomasso-UeuSuM1M43U-unsplash.jpg?v=1593038248475");
+  background-image: url("https://cdn.glitch.com/faa7e333-b899-497d-9290-d8584d33dc21%2FProject_Logo_4.png?v=1602430989928");
   background-attachment: fixed;
 }
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://cdn.glitch.com/09579c53-85c2-4bca-8823-67a819e7c55d%2Fjanine-joles-_2oDf30N6BY-unsplash.jpg?v=1593040518204");
+  background-image: url("https://cdn.glitch.com/faa7e333-b899-497d-9290-d8584d33dc21%2FProject_Logo_4.png?v=1602430989928");
   background-attachment: fixed;
 }
 
