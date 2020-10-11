@@ -9,6 +9,7 @@ html {
       
 body {
   float: left;
+  font-family: "monospace", sans-serif;
   font-size: 1.5rem;
   background-image: url(https://media.discordapp.net/attachments/764532639138316291/764671286105473024/cranialprojectbackground.jpg?width=1404&height=936);
   color: #ffff;
