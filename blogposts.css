@@ -9,59 +9,56 @@ html {
       }
       
 body {
+  float: left;
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
-  background-color: ##c70c0c;
+  background-image: url(https://media.discordapp.net/attachments/764532639138316291/764671286105473024/cranialprojectbackground.jpg?width=1404&height=936);
+  color: #ffff;
   text-align: center;
   margin: 0;
      }
       
 h1 {
-  font-size: 3.75rem;
+  font-size: 2.5rem;
   line-height: 1.8;
-  text-align: center;
    }
-      
-h2 {
-  font-size: 2.50rem;
-  }
 
-h3 {
-  font-size: 2rem;
+/* header */
+header {
+  display: relative;
+  text-align: center;
 }
 
-.left-column {
-  float: left;
-  width: 25%;
-}
-
-.right-column {
-  float: right:
-  width: 75%;
+.background-image {
+  background-color: #000;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
 }
 
 /* nav ul */
-.card {
-  background-color: white;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
   margin-top: 2rem;
-  
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
+  background-color: #000000;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 li a {
   display: block;
-  color: #000;
+  color: #ffffff;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -72,7 +69,7 @@ li a.active {
 }
 
 /* Image */
-.img {
+.image {
   background-color: #aaa;
   width: 100%;
   padding: 3rem;
@@ -80,20 +77,14 @@ li a.active {
 
 /* article */
 .article {
-  background-color: white;
+  color: white;
   padding: 2rem;
   margin-top: 2rem;
 }
 
 .post {
   text-align: left;
-}
-
-/* Clear floats after the columns */
-.row:before {
-  content: "";
-  display: table;
-  clear: both;
+  margin: 2rem;
 }
 
 /* Footer */
