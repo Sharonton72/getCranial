@@ -21,6 +21,11 @@ h1 {
   line-height: 1.8;
    }
 
+a {
+        text-decoration: none;
+        color: white;
+      }
+
 /* header */
 header {
   display: relative;
@@ -74,14 +79,7 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #FF436A;
+  background-color: #FFFFFF;
   color: #43d6b9ff;
 }
 
-/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
-
-li.nav a:hover {
-  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #FF436A;
-  color: #43d6b9ff;
-}
